@@ -1,0 +1,21 @@
+.base{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.menu{
+  width: 15%;
+  border-right: 1px solid grey;
+}
+
+.listaMenu{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.listaMenu>li{
+ cursor: pointer;
+}
